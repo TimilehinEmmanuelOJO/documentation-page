@@ -5,6 +5,7 @@ body{
   font-family: 'Open Sans', Arial, sans-serif;
   line-height: 1.5;
 }
+
 #navbar{
     position: fixed;
   min-width: 290px;
@@ -14,6 +15,23 @@ body{
   height: 100%;
   border-right: solid;
   border-color: rgba(0, 22, 22, 0.4);
+}
+#navbar ul li{
+  padding:9px ;
+  position: relative;
+    list-style: none;
+    width: 100%;
+}
+#navbar ul li a{
+  position: relative;
+  display: block;
+  width: 100%;
+  display: flex;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+a:hover{
+  background: blue;
 }
 header{
     color: black;
